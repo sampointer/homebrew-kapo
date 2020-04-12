@@ -2,16 +2,16 @@
 class Kapo < Formula
   desc "Wrap any command in a status socket"
   homepage "https://github.com/sampointer/kapo"
-  version "1.0.0"
+  version "1.0.1"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/sampointer/kapo/releases/download/1.0.0/kapo_1.0.0_Darwin_x86_64.tar.gz"
-    sha256 "f223adacc972551ed5b0e1de61509fe40a5ee443263234f0e572df3ed9423bae"
+    url "https://github.com/sampointer/kapo/releases/download/v1.0.1/kapo_1.0.1_Darwin_x86_64.tar.gz"
+    sha256 "14c06ba775bf606b8cc426167461d1546d504e00dcd60a7899badb4674cb8092"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/sampointer/kapo/releases/download/1.0.0/kapo_1.0.0_Linux_x86_64.tar.gz"
-      sha256 "fbb9083715ec428f4ff0acbbd01a8356963c34f85b3e75e823e02375e92bcc08"
+      url "https://github.com/sampointer/kapo/releases/download/v1.0.1/kapo_1.0.1_Linux_x86_64.tar.gz"
+      sha256 "7ecbd6e8014d729eeffc55a724af53804e2f90130503aa27f006d3cf7622906e"
     end
   end
 
